@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Ruda:400,700,900);
+body {
+	margin: auto;
+	height: 100%;
+	zoom: 1;
+}
+* { 
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+input:focus, select:focus, textarea:focus, button:focus {
+	outline: none; 
+}
+::-webkit-scrollbar { display: none; }
+.global { 
+	padding: 0;
+	margin: 0;
+	display:table-cell;
+	vertical-align: middle;
+	height: 100%;
+	display:block;
+	width: 100%;
+}
+#office #general-info {
+	position: static;
+}
+#office #product-preview {
+	position: static;
+	z-Index: 2;
+	background: no-repeat;
+	background-image: url('./aeki/asset/img/main2.jpg');
+	background-size: 100%;
+	background-position: contain;
+	font-family: OpenSans;
+}
+#office #product-info {
+	position: static;
+	color:  rgb(57,100,162);
+	background: rgb(230,230,230);
+}
+#office #introduction {
+	position: static;
+	border-top: 3px solid rgb(57,100,162);
+	border-bottom: 1px solid rgb(200,200,200);
+	font-family: OpenSans;
+}
+#office #company-info {
+	position: static;
+	background: rgb(57,100,162);
+}
+#office .Global .sns-icon img {
+	position: static;
+	right: 0;
+	width: 60%;
+	margin: 4px;
+}
+#office .Global .navi-item span {
+	position: static;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+#office .Global .products h1 {
+	position: static;
+	font-family: Ruda;
+	text-align: center;
+}
+#office .Global .sns_icons img {
+	position: static;
+	display: inline-block;
+	width: 60%;
+	border-left: 50%;
+}
+#office .Global .sns_icons {
+	position: static;
+	background-size: 60% ;
+	background-position: 10%;
+}
+#office .Global .products p {
+	position: static;
+	margin: 20px 0 0 0;
+	color: rgb(60,60,60);
+	font-family: OpenSans;
+	text-align: center;
+}
+#office .Global .learn-more-button {
+	position: static;
+}
+#office .Global .learn-more-button span {
+	position: static;
+	display: inline-block;
+	width: 100%;
+	border-top: 1;
+	font-family: OpenSans;
+	text-align: center;
+}
+#office .Global .test {
+	position: static;
+	background: grey;
+}
+#office #product-preview #slogan {
+	position: static;
+	color: white;
+	font-family: Ruda;
+	font-size: 40px;
+}
+#office #product-preview #slogan span {
+	position: static;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+#office #product-preview #proudct_thumb_1 {
+	position: static;
+}
+#office #product-preview #proudct_thumb_2 {
+	position: static;
+}
+#office #product-preview #proudct_thumb_3 {
+	position: static;
+}
+#office #product-preview #proudct_thumb_4 {
+	position: static;
+}
+#office #product-preview #chat_info {
+	position: static;
+}
+#office #product-preview #chat_info span {
+	position: static;
+	display: inline-block;
+	width: 100%;
+	color: white;
+	font-family: OpenSans;
+	font-size: 15px;
+	text-align: center;
+}
+#office #product-preview #chat_button {
+	position: static;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+}
+#office #product-preview #chat_button img {
+	position: static;
+	display: block;
+	width: 25%;
+	margin: 5px auto;
+}
+#office #product-info #box0 {
+	position: static;
+}
+#office #product-info #box1 {
+	position: static;
+}
+#office #product-info #box2 {
+	position: static;
+}
+#office #product-info #box3 {
+	position: static;
+}
+#office #product-info #box3 h1 {
+	position: static;
+	width: 100%;
+	text-align: center;
+}
+#office #product-info #box0 h1 {
+	position: static;
+}
+#office #product-info #box4 {
+	position: static;
+	border-top: 1;
+}
+#office #product-info #box4 span {
+	position: static;
+	display: inline-block;
+	width: 100%;
+	border-top: 1;
+	font-family: OpenSans;
+	text-align: center;
+}
+#office #product-info #box5 {
+	position: static;
+}
+#office #product-info #box6 {
+	position: static;
+}
+#office #product-info #box7 {
+	position: static;
+}
+#office #company-info #title {
+	position: static;
+	color: white;
+	font-family: Ruda;
+	font-size: 30px;
+}
+#office #space0 #box0 {
+	position: static;
+}
+#office #space0 #box1 {
+	position: static;
+}
+#office #space0 #box2 {
+	position: static;
+}
+#office #space0 #box3 {
+	position: static;
+}
+#office #space0 #box4 {
+	position: static;
+}
+#office #space0 #box5 {
+	position: static;
+}
+#office #space0 #box6 {
+	position: static;
+}
+#office #space0 #box7 {
+	position: static;
+}
+#office #space0 #box8 {
+	position: static;
+}
+#office #space0 #box9 {
+	position: static;
+}
+#office #space0 #box10 {
+	position: static;
+}
+#office #space0 #box11 {
+	position: static;
+}
+#office #space0 #box12 {
+	position: static;
+}
+#office #space0 #box13 {
+	position: static;
+}
+#office #space0 #box14 {
+	position: static;
+}
+#office #space0 #box15 {
+	position: static;
+}
+#office #space0 #box16 {
+	position: static;
+}
+#office #space0 #box17 {
+	position: static;
+}
+#office #space0 #box18 {
+	position: static;
+}

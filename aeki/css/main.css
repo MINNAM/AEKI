@@ -1,0 +1,1355 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700);
+* {
+
+    color:       white;
+    font-family: "Open Sans";
+    font-size:   11px;
+    font-weight: 100;
+    margin:      0;
+    padding:     0;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
+
+}
+
+/*  Main Container */
+#mainContainer {
+
+    margin-top: 17px;
+    min-width:  85%;
+    width: 85%;
+
+}
+
+.space {
+
+    z-index: 0;
+    display: block;
+
+}
+
+.menu {
+
+    background:    rgb(80, 80, 80);    
+    border-right:  2px solid white;
+    display:       inline;
+    height:        25px;
+    left:          0;
+    margin-bottom: 50px;
+    min-width:     100%;
+    position:      fixed;
+    top:           0;
+    width:         100%;
+    z-index:       0;
+
+}
+
+#projectInfoContainer{
+    
+    box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float:      right;
+    height:     28px;    
+    width:      15%;
+
+}
+
+#projectName{}
+
+canvas {}  
+
+.itemHolder {
+
+    float: left;
+
+}
+
+.itemHolder #logoContainer{
+
+    background: #474747;
+
+}
+
+#logoContainer  #aekiLogo{
+
+    margin: 2% 22%;
+    width:  52%;
+
+}
+
+.itemHolder .item-break{
+    
+    background:    rgb( 80, 80, 80);
+    box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display:       none;
+    height:        5px;
+    padding-left:  10px;
+    padding-right: 10px; 
+    width:         100%;
+
+}
+
+.itemHolder .item-break span{
+    
+    background: white;
+    display: block;
+    height: 1px;
+    width: 100%;
+
+}
+
+.itemTitle {
+
+    background:    rgb(80, 80, 80);
+    box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color:         white;
+    cursor:        pointer;
+    height:        25px;
+    margin-bottom: 1px;
+    padding:       3px;
+    width:         100%;
+
+}
+
+.itemTitle legend {
+
+    font-size: 11px;
+    margin-left: 5px;    
+
+}
+
+.item {
+
+    width: 91.5%;
+    /*height: 20px;*/
+    
+    color: white;
+    background: rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(210, 210, 210);
+    /*border-radius: 5px;*/
+    
+    padding: 4%;
+    display: none;
+}
+.item-button {
+
+    width: 100%;
+    height: 25px;
+    color: white;
+    cursor:  pointer;
+    background: rgb(80, 80, 80);
+    /*border-radius: 5px;*/
+    
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: none;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+
+.item-button .keyCommand{
+
+    float:right;
+
+}
+
+.item-button legend {
+
+    text-align: center;
+    width:      100%;
+
+}
+
+.item-button:hover {
+
+    background: rgb(230, 230, 230);
+
+}
+
+.item-alt {
+
+    background: rgb(100, 100, 100);
+    color:      white;
+    width:      100%;        
+
+}
+
+.item-alt button {
+
+    background:  white;
+    border:      none;
+    border:      1px solid rgb(240, 240, 240);
+    box-shadow:  none;
+    color:       rgb(100, 100, 100);
+    height:      17px;
+    text-shadow: none;
+
+}
+
+.item-alt .titleHolder {
+
+    background: rgb(80, 80, 80);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    height:     20px;
+    padding:    0 4% 0 4%;
+    
+}
+
+.item-alt .titleHolder legend{
+
+    font-size: 12px;    
+
+}
+
+.item-alt .titleHolder img {
+
+    display:      none;
+    float:        left;
+    height:       14px;
+    margin-right: 5px;
+    width:        14px;
+
+}
+
+.item-alt .item-alt-content {
+
+    background: rgb(80, 80, 80);
+    padding:    4%;
+
+}
+
+.item-alt .item-alt-content li {
+
+    margin-bottom: 2px;
+
+}/* Main Container end*/
+
+/* Top Menu */
+#topBlank {
+
+    background: white;
+    height:     23px;
+    width:      85%;
+    
+}
+
+#barMenu {
+
+    background:    rgb(220, 220, 220);
+    height:        100%;
+    margin-bottom: 24px;
+    position:      fixed;
+    width:         200px;
+
+}
+
+#barMenu span {
+
+    border-bottom: 1px solid rgb(180, 180, 180);
+    color:         rgb(100, 100, 100);
+    display:       block;
+    font-family:   "Helvetica";
+    font-size:     15px;
+    height:        25px;
+    margin-right:  20px;
+    text-align:    center;
+    width:         100%; 
+    
+}
+
+#subMenu {
+
+    background:    white;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    height:        15px;    
+    position:      fixed;
+    width:         85%;
+
+}/* Top menu ends*/
+
+/* Content Editor*/
+#contentEditor {
+
+    background: rgb(100, 100, 100);
+    display:    none;
+    margin-top: 17px;
+    width:      95%;
+
+}
+
+#contentEditor #content {
+
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+#contentEditor #contentMenu #saveContent {
+
+    float: left;
+    width: 70%;
+    
+}
+
+#contentEditor h1 {
+
+    font-size: 20px;
+
+}
+
+#contentEditor h3 {
+
+    font-size: 13px;
+
+}
+
+#contentEditor table {
+
+    width:          100%;
+    vertical-align: left;
+
+}
+
+#contentEditor .contentSpace {
+
+    width: 10%;
+
+}
+#contentEditor .contentBox {
+
+    width: 10%;
+
+}
+
+#contentEditor .contentTag {
+
+    width: 10%;
+
+}
+
+#contentEditor .contentTagInput {
+
+    width: 60%;
+
+}
+
+#contentEditor .contentTagInput input {
+
+    float: left;
+    width: 95%;
+
+}
+
+#contentEditor .contentTagInput input.file {
+
+    float:        left;
+    width:        84%;
+    margin-right: 1%;
+
+}
+
+#contentEditor .contentTagInput button.fileButton {
+    
+    appearance:     none;
+    background:     white;
+    color:          rgb(60, 60, 60);
+    float:          top;
+    margin:         0;
+    padding:        0;
+    width:          10%;
+    vertical-align: middle;
+    
+}
+
+#contentEditor .contentTagInput textarea {
+
+    background:  none;
+    border:      1px solid rgb(240, 240, 240);
+    box-shadow:  none;
+    float:       left;
+    height:      100px;
+    text-shadow: none;
+    width:       95%;
+
+}/* Content Editor ends */
+
+/* Build Container */
+#buildContainer {
+
+    background: none;
+    display:    none;
+    height:     100%;
+    width:      100%;
+
+}
+
+#buildContainer iframe {
+
+    height:  1000px;
+    margin:  0;
+    padding: 0;
+    width:   84%;
+    
+}/* Build Container ends */
+
+/* Bible list */
+#bibleListContainer {
+
+    background: rgb(80, 80, 80);
+    height:     300px;
+    overflow:   scroll;
+    overflow-x: hidden;
+    position:   relative;
+    width:      100%;
+    
+}
+
+#bibleList {
+
+    background: rgb(80, 80, 80);
+    border:     none;
+    cursor:     pointer;
+    width:      100%;
+    
+}
+
+#bibleList * {
+
+    width: 100%;
+
+}
+
+#bibleList .boxListItem {
+
+    padding-left: 20px;
+    
+}
+
+#bibleList button {
+
+    background:   none;
+    height:       10px;
+    margin-top:   0px;
+    margin-right: 5px;
+    width:        10px;
+
+}
+
+#bibleListButton {
+
+    height: 100%;
+    width:  100%;
+
+}
+
+.saveIndicator{
+
+    /*background: white;*/
+    display: inline-block;
+    float: right;
+    height: 12px;
+    width: 12px;
+
+
+}
+
+#swapDownButton {
+
+    background: url("../img/downButton.png");
+    bottom:     0;
+    cursor:     pointer;
+    height:     30px;
+    position:   absolute;
+    right:      31px;    
+    width:      30px;
+    z-index:    1;
+
+}
+
+#swapUpButton {
+
+    background: url("../img/upButton.png");
+    bottom:     0;
+    cursor:     pointer;
+    height:     30px;
+    position:   absolute;
+    right:      62px;    
+    width:      30px;
+    z-index:    1;
+
+}
+
+#bibleListButton {
+
+    background: url("../img/bibleListButton.png");
+    bottom:     0;
+    cursor:     pointer;
+    height:     30px;
+    position:   absolute;
+    right:      0;
+    width:      30px;    
+    z-index:    1;
+    
+}
+
+#elementInfo {
+    
+    background: rgb(80, 80, 80);
+    display:    none;
+    height:     100%;
+    width:      100%;    
+
+}/* Bible list ends */
+
+/** Attribute Menu*/
+#attributeMenu {
+
+    background: rgb(80, 80, 80);
+    height:     100%;
+    margin-top: 1px;
+    min-width:  15%;
+    overflow:   scroll;
+    position:   fixed;
+    right:      0;
+    width:      15%;
+
+}
+
+#styleAttributeContainer legend{
+
+    cursor: pointer;
+
+}
+
+.styleAttributeIcon{ /* For dropdown button */
+
+    cursor: pointer;
+    display:      inline;
+    float:        left;
+    margin-right: 4px;
+    margin-top:   1px;
+
+}
+
+#styleAttribute input{
+
+    width: 50%;
+
+}
+
+#styleSelector {
+
+    display: block;
+
+}
+#styleSelector * {
+
+    float: left;
+    width: 33%;
+
+}
+
+#styleSelector {
+
+    width: 100%;
+    height: 20px;
+    background: rgb(80, 80, 80);
+    margin-bottom: 10px;
+    
+    overflow: auto;
+    
+}
+
+.styleLegend {
+    
+    border-bottom: 1px solid white;
+
+}
+
+.styleLabel {} *::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+.styleTextInput {
+
+    width: 65%;
+    
+}
+
+.styleSelectInput {
+
+    width: 65%;
+    
+}
+
+.styleSpecialInput {
+
+    display: inline-block;
+    float:right;
+    width: 57%;
+
+}
+
+.styleSpecialbutton {
+
+    cursor:      pointer;
+    display:     block;
+    float:       right;
+    font-weight: bold;    
+    margin-top:  0px;
+    margin-left: 1%;
+    width:       7%;
+
+}
+
+#boxAttributes select,input{ 
+
+    width: 65%;
+
+}
+
+/* Tags for overall */
+input, select {
+
+    appearance:         none;
+    -webkit-appearance: none;
+    background:         transparent;
+    border:             none;
+    border-bottom:      1px solid rgb(230, 230, 230);
+    box-sizing:         border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;   
+    box-shadow:         none;
+    color:              white;
+    float:              right;
+    height:             17px;
+    padding-left:       5px;
+    text-shadow:        none;
+    
+}
+
+select {
+
+    border-radius: 0px;
+    border-right: 1px solid rgb(230, 230, 230);
+    box-shadow: none;
+    cursor: pointer;
+    
+}
+
+textarea {
+
+    -webkit-appearance: none;
+    appearance:         none;
+    background:         transparent;
+    border:             1px solid rgb(230, 230, 230);
+    box-sizing:         border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+
+}
+
+button:focus, select:focus, input:focus, textarea:focus {
+
+    outline: none;    
+     
+}
+
+button {
+
+    background:  white;
+    border:      none;
+    border:      1px solid rgb(240, 240, 240);
+    box-shadow:  none;
+    color:       rgb(100, 100, 100);
+    height:      17px;
+    width:       48%;
+    margin-top:  15px;    
+    text-shadow: none;
+
+}
+
+
+legend {
+
+    display:       inline;
+    margin-bottom: 3px;
+
+}
+
+legend .legendTitle {
+    
+    color:         white;
+    font-size:     13px;
+    margin-bottom: 5px;
+    padding-left:  5px;
+    
+}
+
+label {
+
+    display:        inline-block;
+    line-height:    1.8;
+    width:          30%;
+    vertical-align: top;
+    
+}
+
+ol {
+
+    list-style: none;
+
+}
+
+ol.dropdownList ol {
+
+    display: none;
+    width:   100%;
+
+}
+
+ol.dropdownList input {
+    
+    height: 17px;
+
+}
+
+li {
+
+    list-style: none;
+
+}/* Tags for overall ends*/
+
+/* Dialog */
+#dialogBox {
+
+    background: rgb(80, 80, 80);    
+    margin:     20%;
+    padding:    4%;
+    position:   fixed;
+    z-index:    1;
+
+}
+
+#dialogBar {
+
+    background:        url("../img/barBackground.png");
+    background-repeat: repeat-x;
+    height:            8px;
+    width:             100%;
+
+}
+
+button#dialogOk {
+
+    float: left;
+    width: 200px;
+
+}
+
+button#dialogCancel {
+
+    float: right;
+    width: 200px;
+
+}
+
+#dialogContent legend{
+
+    width: 100%;
+}
+
+#dialogBoxContainer {
+
+    background: rgb(80, 80, 80);
+    position: fixed;
+    width: 500px;
+    z-index: 1;
+
+}
+
+/* Dialog Small */
+#dialogBoxSmall {
+
+    padding: 1% 1% 1% 1%;
+    background: rgb(80, 80, 80);
+
+}
+
+#dialogBoxSmall label {
+
+    display:        inline-block;
+    line-height:    1.8;
+    vertical-align: top;
+    width:          20%;
+
+}
+
+#dialogBoxSmall .dialogButtonHolder {
+
+    background: rgb(80, 80, 80);
+    height:     33px;
+
+}
+
+#dialogBoxSmall textarea {
+    
+    display:     inline-block;
+    font-size:   12px;
+    height:      300px;
+    margin-left: 6%;    
+    resize:      none;
+    width:       74%;
+
+}
+
+#dialogBoxSmall textarea#textDesc{
+
+    height: 150px;
+
+}
+
+#dialogBoxSmall input {    
+    
+    border-bottom: 1px solid rgb(230, 230, 230);
+    display:       inline-block;
+    font-size:     13px;
+    margin-left:   5%;
+    resize:        none;
+    width:         74%;
+
+}
+
+#dialogBoxSmall select {
+
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-right:  1px solid rgb(230, 230, 230);
+    display:       inline-block;
+    font-size:     12px;
+    margin-left:   5%;
+    resize:        none;
+    width:         74%;
+
+}
+
+#dialogBoxSmall .tagInput {
+    
+    display:     inline-block;
+    float:       left;
+    font-size:   13px;
+    margin-left: 0;
+    resize:      none;
+    width:       97%;
+
+}
+
+#dialogBoxSmall table {
+
+    width: 100%;
+
+}/* Dialog Small ends */
+
+/* Dialog Medium */
+#dialogBoxMedium {
+
+    padding:    1%;
+    background: rgb(80, 80, 80);
+
+}
+
+#dialogBoxMedium label {
+
+    display:        inline-block;
+    line-height:    1.8;
+    vertical-align: top;
+    width:          20%;
+
+}
+
+#dialogBoxMedium .dialogButtonHolder {
+
+    height: 33px;
+
+}
+
+#dialogBoxMedium textarea {
+    
+    background:  rgb(90, 90, 90);
+    display:     inline-block;
+    font-size:   13px;
+    height:      300px;
+    resize:      none;
+    margin-left: 5%;
+    width:       74%;
+
+}
+
+#dialogBoxMedium input {
+
+    border-bottom: 1px solid rgb(230, 230, 230);
+    display:     inline-block;
+    font-size:   13px;
+    margin-left: 5%;
+    resize:      none;
+    width:       75%;    
+
+}
+
+#dialogBoxMedium select {
+    
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-right:  1px solid rgb(230, 230, 230);
+    border-radius: 0px;
+    display:       inline-block;
+    font-size:     13px;
+    margin-left:   5%;
+    margin-right:  1%;
+    resize:        none;
+    width:         74%;
+
+}
+
+#dialogBoxMedium .tagInput {
+    
+    display:     inline-block;
+    float:       left;
+    font-size:   13px;
+    margin-left: 0;
+    resize:      none;    
+    width:       97%;
+
+}
+
+#dialogBoxMedium table {
+
+    width: 50%;
+
+}/* Dialog Medium ends*/
+
+/* Dialog Large */
+#dialogBoxLarge {
+
+    background: rgb(80, 80, 80);
+    height:     600px;
+    padding:    1%;
+
+}
+
+#dialogBoxLarge label {
+
+    display:        inline-block;
+    line-height:    1.8;
+    vertical-align: top;
+    width:          20%;
+
+}
+
+#dialogBoxLarge .dialogButtonHolder {
+
+    height: 33px;
+    
+}
+
+#dialogBoxLarge #textareaContainer {
+
+    background: rgb(90, 90, 90);
+    border:     none;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+    display:    inline-block;
+    height:     100%;
+    resize:     none;
+    width:      80%;
+    
+}
+
+#dialogBoxLarge #lineNumber { /* NOT IMPLEMENTED YET, IT IS FOR SCRIPT EDITOR */
+
+    background:  rgb(90, 90, 90);
+    border:      none;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing:  border-box;
+    display:     inline-block;
+    float:       left;    
+    font-family: "courier";
+    font-size:   11px;
+    height:      550px;
+    overflow:    hidden;
+    resize:      none;
+    text-align:  right;
+    width:       3%;
+
+}
+
+#dialogBoxLarge textarea {
+
+    background:  rgb(90, 90, 90);
+    border:      none;
+    box-sizing:  border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    display:     inline-block;
+    float:       left;
+    font-family: "courier";
+    font-size:   11px;
+    height:      550px;
+    margin-left: 1%;
+    overflow:    scroll;
+    overflow-y:  hidden;
+    resize:      both;
+    width:       96%;
+
+}
+
+#dialogBoxLarge #scriptMenu{
+
+    background: rgb(230,230,230);
+    float:      left;
+    height:     550px;
+    width:      20%;
+
+}
+
+#dialogBoxLarge input {
+    
+    border:      1px solid rgb(150, 150, 150);
+    display:     inline-block;
+    font-size:   13px;
+    margin-left: 5%;
+    resize:      none;
+    width:       75%;
+
+}
+
+#dialogBoxLarge select {
+    
+    border-radius: 0px;    
+    display:       inline-block;
+    font-size:     13px;    
+    margin-left:   5%;
+    margin-right:  1%;
+    resize:        none;
+    width:         74%;
+
+}
+
+#dialogBoxLarge .tagInput {
+    
+    display:     inline-block;
+    float:       left;
+    font-size:   13px;
+    margin-left: 0;
+    resize:      none;
+    width:       97%;
+
+}
+
+#dialogBoxLarge table {
+
+    width: 50%;
+
+}/* Dialog Large ends */
+
+/* Dialog Miscs */
+#validateHolder {
+
+    display:    inline-block;
+    height:     35px;
+    margin-top: 5px;
+    width:      100%;    
+
+}
+
+#validator {
+
+    width: 59%;
+    height: 50%;
+    background: rgb(100, 100, 100);
+    margin-right: 1%;
+    float: right;
+    
+}
+
+#validateHolder button {
+
+    float:  right;
+    height: 50%;
+    margin: 0 0 0 0;
+    width:  14%;
+    
+}
+
+.labelClass {} #uploadFileContainer input {
+
+    border:  none;
+    float:   none;    
+    margin:  5px 0 0 0;
+    padding: 0;
+    width:   100%;
+    
+}
+
+#uploadFileContainer input[type "file"]::-webkit-file-upload-button {
+
+    background: white;
+    border:     none;
+    color:      rgb(100, 100, 100);
+    float:      none;
+    margin:     0;
+    padding:    0 4px 0 4px;
+
+}
+
+.assetManagerContainer {
+
+    height: 300px;
+    width: 100%;
+
+}
+
+.assetManagerContainer .assetMangerHeader{
+    
+    border-bottom: 1px white solid;
+    border-top:    1px white solid;
+
+}
+
+.assetManagerContainer #folderContainer {
+
+    border-right: 1px solid rgb(100,100,100);
+    display:      inline-block;
+    float:        left;
+    height:       94%;
+    width:        20%;
+
+}
+
+.assetManagerContainer #folderContainerHeader {
+  
+    background:   rgb( 100,100,100);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    border-right: 1px solid rgb(100,100,100);
+    display:      inline-block;
+    float:        left;
+    height:       8%;
+    padding:      5px 0 0 4px;
+    width:        20%;
+
+}
+
+.assetManagerContainer #folderContainer span {
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    display: block;
+    padding: 0 0 0 5px ;
+    width:   100%;
+
+}
+
+.assetManagerContainer #fileContainer {
+
+    border-right: 1px solid rgb(100,100,100);
+    display:      inline-block;
+    float:        left;
+    height:       95%;
+    overflow:     scroll;
+    width:        60%;
+
+}
+
+#fileContainerHeader {
+
+    background:   rgb( 100,100,100 );
+    border-right: 1px solid rgb(100,100,100);
+    display:      inline-block;
+    float:        left;
+    height:       8%;
+    width:        60%;
+
+}
+
+.assetManagerContainer #fileContainerHeader table{
+
+    width: 100%;
+
+}
+
+.assetManagerContainer #fileContainerHeader table td {
+
+    height: 15px;
+
+}
+
+.assetManagerContainer #fileContainer table {
+
+    width:          100%;
+    border-spacing: 0;
+
+}
+
+.assetManagerContainer #fileListHeader {
+
+    height: 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    
+}
+
+.assetManagerContainer #fileListHeader{
+
+    height: 15px;
+    
+}
+
+.assetManagerContainer #fileListHeader img{
+    
+    margin-right: 5px;
+    float:right;
+    
+}
+
+.assetManagerContainer .fileNameCell {
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    cursor:       pointer;
+    display:      inline-block;
+    margin-right: 2%;    
+    overflow:     hidden;
+    padding:      0 0 0 4px;
+    width:        100%;
+    
+}
+
+.assetManagerContainer .fileDateCell {   
+
+    cursor:       pointer;
+    display:      inline-block; 
+    margin-right: 4%;
+    width:        100%;
+
+}
+
+.assetManagerContainer .fileSizeCell {
+
+    cursor:       pointer;
+    display:      inline-block;        
+    margin-left:  2%;
+    margin-right: 2%;
+    width:        100%;
+
+}
+
+.assetManagerContainer .fileTypeCell {
+
+    cursor:       pointer;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.assetManagerContainer #previewContainer {
+
+    display: inline-block;
+    float:   left;
+    height:  95%;
+    width:   19%;
+
+}
+
+.assetManagerContainer #previewContainerHeader {
+
+    background:  rgb(100,100,100);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    display:     inline-block;
+    float:       left;
+    height:      8%;
+    padding-top: 3px;
+    text-align:  center;
+    width:       19%;
+    
+}
+
+.assetManagerContainer #previewContainer #preview {
+
+    height: 60%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.assetManagerContainer #previewContainer #preview * {
+
+    margin: 0 auto;
+    width:  100%;    
+    
+}
+
+.assetManagerContainer #previewContainer #previewInfo {
+    
+    height:  40%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    padding: 5%;
+    width:   100%;
+    
+}
+
+.assetManagerContainer #previewContainer #previewInfo table {
+
+    width: 100%;
+    
+}/* Dialog Misc ends */
+
+/* Indicator is implemented but not in function */
+#indicator {
+
+    font-size:  40px;
+    position:   fixed;
+    text-align: center;
+    width:      85%;
+    z-index:    0;
+
+}
+
+#indicator * {
+
+    display:       block;
+    font-size:     20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    opacity:       0;
+    margin-bottom: -10px;
+
+}

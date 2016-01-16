@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eventAttributes>
+	<eventType name = "top"         build-name = "onTop">
+	</eventType>
+	<eventType name = "bottom"      build-name = "onBottom">
+	</eventType>
+	<eventType name = "click"       build-name = "onclick">
+	</eventType>
+	<eventType name = "mouse Down"  build-name = "onmousedown">
+	</eventType>
+	<eventType name = "mouse Up"    build-name = "onmouseup">
+	</eventType>
+	<eventType name = "mouse Enter" build-name = "onmouseenter">
+	</eventType>
+	<eventType name = "mouse Leave" build-name = "onmouseleave">
+	</eventType>
+	<eventType name = "mouse Move"  build-name = "onmousemove">
+	</eventType>
+	<eventType name = "mouse Out"   build-name = "onmouseout">
+	</eventType>
+</eventAttributes>

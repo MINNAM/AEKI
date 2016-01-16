@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<StyleAttributes>
+
+	<StyleType name = 'Positioning'>
+
+		<attribute name = 'position' build-name = 'position'>
+			<inputType>select</inputType>
+			<inputOption>
+				<option>static</option>
+	    		<option>absolute</option>
+	    		<option>fixed</option>
+	    		<option>relative</option>
+	    		<option>initial</option>
+	    		<option>inherit</option>
+			</inputOption>
+		</attribute>
+
+		<attribute name = 'zIndex' build-name = 'z-Index'>
+			<inputType>text</inputType>
+		</attribute>
+		
+		<attribute name = 'top' build-name = 'top'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'right' build-name = 'right'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'bottom' build-name = 'bottom'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'left' build-name = 'left'>
+			<inputType>text</inputType>
+		</attribute>
+					   
+	</StyleType>
+
+	<StyleType name = 'Display &amp; Box Model'>
+
+		<attribute name = 'display' build-name = 'display'>
+			<inputType>select</inputType>
+			<inputOption>
+				<option>inline-block</option>
+	    		<option>inline</option>
+	    		<option>block</option>
+	    		<option>none</option>
+	    		<option>initial</option>
+	    		<option>inherit</option>
+	    		<option>table</option>
+			</inputOption>
+		</attribute>
+		<attribute name = 'width' build-name = 'width'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'height' build-name = 'height'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'overflow' build-name = 'overflow'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'margin' build-name = 'margin'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'padding' build-name = 'padding'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'borderTop' build-name = 'border-top'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'borderRight' build-name = 'border-right'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'borderBottom' build-name = 'border-bottom'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'borderLeft' build-name = 'border-left'>
+			<inputType>text</inputType>
+		</attribute>
+
+	</StyleType>
+
+	<StyleType name = 'Color &amp; Background'>
+
+		<attribute name = 'color' build-name = 'color'>
+			<inputType>color</inputType>
+		</attribute>
+		<attribute name = 'bg' build-name = 'background'>
+			<inputType>color</inputType>
+		</attribute>
+		<attribute name = 'bg-img' build-name = 'background-image'>
+			<inputType>asset</inputType>
+		</attribute>
+		<attribute name = 'bg-size' build-name = 'background-size'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'bg-position' build-name = 'background-position'>
+			<inputType>text</inputType>
+		</attribute>
+
+
+	</StyleType>	
+
+	<StyleType name = 'Text'>
+
+		<attribute name = 'fontFamily' build-name = 'font-family'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'fontSize' build-name = 'font-size'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'textAlign' build-name = 'text-align'>
+			<inputType>text</inputType>
+		</attribute>
+		<attribute name = 'fontWeight' build-name = 'font-weight'>
+			<inputType>text</inputType>
+		</attribute>
+
+	</StyleType>
+
+	<StyleType name = 'Other'>
+
+		<attribute name = 'cursor' build-name = 'cursor'>
+			<inputType>text</inputType>
+		</attribute>
+
+	</StyleType>
+
+
+</StyleAttributes>
